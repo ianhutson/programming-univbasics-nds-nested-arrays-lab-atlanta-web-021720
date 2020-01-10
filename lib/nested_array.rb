@@ -33,7 +33,11 @@ def sorted_matrix
   ORGANIC_PRODUCE[1][2] = "Grapes"
   ORGANIC_PRODUCE[1][3] = "Potatoes"
   ORGANIC_PRODUCE[1][4] = "Strawberries"
-  CONVENTIONAL_PRODUCE[0][0] = ""
+  CONVENTIONAL_PRODUCE[0][0] = "Eggplant"
+  CONVENTIONAL_PRODUCE[0][1] = "Grapefruit"
+  CONVENTIONAL_PRODUCE[0][2] = "Oranges"
+  CONVENTIONAL_PRODUCE[0][3] = "Pineapple"
+  CONVENTIONAL_PRODUCE[0][4] = "Watermelon"
 end
 
 def matrix_lookup(matrix, row, column)
